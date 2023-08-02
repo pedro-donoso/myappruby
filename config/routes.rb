@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'landing/tennis'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   get '/technology', to: 'news#index'
