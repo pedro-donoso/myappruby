@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'pages/index'
+  get 'pages/about'
+  get 'pages/terms'
+  get 'pages/contactact'
+  get 'pages/propiedad_intelectual'
   get 'landing/tennis'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
