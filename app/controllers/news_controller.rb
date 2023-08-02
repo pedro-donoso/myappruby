@@ -1,4 +1,6 @@
 class NewsController < ApplicationController
-    def index; end
+    def index
+       @prueba = 'Hola Mundo'
+end
     def new; end
 end

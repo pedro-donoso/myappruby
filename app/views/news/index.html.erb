@@ -1,4 +1,9 @@
-<h1>Hola Prueba</h1>
-<%= numero = 5 %>
-<br>
-<%= numero * 7 %>
+<h1>Índice de la página</h1>
+<p>Acabo de modificar el archivo app/views/pages/index.html.erb</p>
+<h2>¡Hola Mundo!</h2>
+(c)Copyright <%= Time.now.year %>
+<% if Time.now.year >= 2018 %>
+<p> Versión 2.0 </p>
+<% else %>
+<p> versión 1.0 </p>
+<% end %>
