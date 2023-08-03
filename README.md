@@ -1,4 +1,4 @@
-# README
+![proyectos](https://github.com/pedro-donoso/myappruby/assets/68760595/6806824b-782f-4076-b094-2c6676ba7ad4)
 
 #### La idea será construir lo semejante a un portafolio en el cual muestro royectos anteriores.
 
