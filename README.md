@@ -1,5 +1,7 @@
 # README
 
+#### La idea será construir lo semejante a un portafolio en el cual muestro royectos anteriores.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
