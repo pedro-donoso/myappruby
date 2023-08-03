@@ -1,16 +1,10 @@
 class PagesController < ApplicationController
-  def index
+  def home
   end
 
-  def about
+  def projects
   end
 
-  def terms
-  end
-
-  def contactact
-  end
-
-  def propiedad_intelectual
+  def contact
   end
 end

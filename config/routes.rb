@@ -1,13 +1,14 @@
 Rails.application.routes.draw do
-  get 'pages/index'
-  get 'pages/about'
-  get 'pages/terms'
-  get 'pages/contactact'
-  get 'pages/propiedad_intelectual'
+  get '/home', to: 'pages#home'
+  get '/projects', to: 'pages#projects'
+  get '/contact', to: 'pages#contact'
+  root "pages#home"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
-  get '/technology', to: 'news#index'
-    get '/tecnologia', to: 'news#new'
   # Defines the root path route ("/")
   # root "articles#index"
+
+  #get 'pages/home', to: 'pages#home'
+  #get 'pages/projects', to: 'pages#projects'
+  #get 'pages/contact', to: 'pages#contact'
 end
